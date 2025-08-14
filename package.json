@@ -1,0 +1,17 @@
+{
+  "name": "eco-local-server",
+  "version": "1.0.0",
+  "description": "Local server for publications with CRUD operations",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch database.json --port 43004",
+    "dev": "json-server --watch database.json --port 43004 --host 0.0.0.0"
+  },
+  "keywords": ["json-server", "local-server", "publications"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  },
+  "devDependencies": {}
+}

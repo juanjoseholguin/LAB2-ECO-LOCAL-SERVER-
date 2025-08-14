@@ -1,0 +1,22 @@
+{
+  "publications": [
+    {
+      "title": "andy",
+      "description": "hola andyy",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnnhBula3EEa4c-bZ_19t-x6NX9rA2oSlfpA&s",
+      "id": 1
+    },
+    {
+      "title": "messiento",
+      "description": "messiento feliz",
+      "imageUrl": "https://www.fcbarcelona.com/fcbarcelona/photo/2022/08/02/ae5252d1-b79b-4950-9e34-6e67fac09bb0/LeoMessi20092010_pic_fcb-arsenal62.jpg",
+      "id": 2
+    },
+    {
+      "title": "betty la fea",
+      "description": "betty",
+      "imageUrl": "https://radionacional-v3.s3.amazonaws.com/s3fs-public/styles/portadas_relaciona_4_3/public/senalradio/articulo-noticia/galeriaimagen/betty_podcast.jpg?h=1a61a5ab&itok=NfFv2uU4",
+      "id": 3
+    }
+  ]
+}

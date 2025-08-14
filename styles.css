@@ -1,0 +1,258 @@
+/* Estilos basicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4A90E2 0%, #7B68EE 100%);
+    color: #333;
+    line-height: 1.4;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+/* Header simple */
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background: white;
+    border: 2px solid #4A90E2;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 2rem;
+    color: #4A90E2;
+}
+
+/* Contenido principal */
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+
+/* Seccion del formulario */
+.form-section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #7B68EE;
+}
+
+.section-title {
+    color: #4A90E2;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.publication-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group label {
+    color: #4A90E2;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 8px 12px;
+    border: 2px solid #7B68EE;
+    border-radius: 5px;
+    background: #fff;
+    color: #333;
+    font-size: 0.9rem;
+    font-family: Arial, sans-serif;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    font-family: Arial, sans-serif;
+    color: #999;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #4A90E2;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 70px;
+}
+
+/* Botones simples */
+.btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background: #4A90E2;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #357ABD;
+}
+
+.btn-danger {
+    background: #FF6347;
+    color: white;
+}
+
+.btn-danger:hover {
+    background: #DC143C;
+}
+
+/* Seccion de publicaciones */
+.publications-section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #7B68EE;
+}
+
+.publications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.publication-card {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid #7B68EE;
+}
+
+.publication-card:hover {
+    border-color: #4A90E2;
+}
+
+.publication-title {
+    color: #4A90E2;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.publication-description {
+    color: #555;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.publication-image {
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.publication-image img {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 5px;
+    border: 2px solid #7B68EE;
+    display: block;
+    margin: 0 auto;
+}
+
+.publication-actions {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+}
+
+/* Responsive basico */
+@media (max-width: 768px) {
+    .main-content {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .title {
+        font-size: 1.8rem;
+    }
+    
+    .header {
+        padding: 15px 0;
+    }
+    
+    .form-section,
+    .publications-section {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .title {
+        font-size: 1.5rem;
+    }
+    
+    .btn {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+}
+
+/* Animacion simple */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.publication-card {
+    animation: fadeIn 0.3s ease-out;
+}
+
+/* Scrollbar basico */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f0f0f0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #7B68EE;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4A90E2;
+}
