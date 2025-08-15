@@ -1,5 +1,5 @@
 {
-  "publications": [
+  "posts": [
     {
       "title": "andy",
       "description": "hola andyy",
@@ -17,6 +17,12 @@
       "description": "betty",
       "imageUrl": "https://radionacional-v3.s3.amazonaws.com/s3fs-public/styles/portadas_relaciona_4_3/public/senalradio/articulo-noticia/galeriaimagen/betty_podcast.jpg?h=1a61a5ab&itok=NfFv2uU4",
       "id": 3
+    },
+    {
+      "title": "ñengo flow",
+      "description": "ñengo floww",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh1eMWffqFxewbIpReVxwdwe0RRq2_Oda1nw&s",
+      "id": 4
     }
   ]
 }
